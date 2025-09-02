@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Osservatorio 118a — Trasparenza, dati, responsabilità</title>
+  <meta name="description" content="Osservatorio 118a: proposta di Unità/Reparto permanente per raccogliere, analizzare e certificare le lacune della medicina ufficiale e integrare dove serve.">
+  <style>
+    :root{
+      --bg:#ffffff; --text:#0f172a; --muted:#475569; --line:#e2e8f0;
+      --brand:#0f172a; --brand-contrast:#ffffff; --soft:#f8fafc;
+      --accent:#0ea5e9;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+    a{color:var(--text);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .container{max-width:1100px;margin:0 auto;padding:0 16px}
+    /* Header */
+    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.9);backdrop-filter:saturate(180%) blur(10px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:8px;align-items:center;font-weight:700}
+    .brand-dot{width:10px;height:10px;background:var(--accent);border-radius:999px}
+    nav ul{display:flex;gap:18px;list-style:none;margin:0;padding:0}
+    nav a{font-size:.95rem}
+    /* Hero */
+    .hero{padding:64px 0}
+    .kicker{color:var(--muted);text-transform:uppercase;letter-spacing:.08em;font-size:.8rem}
+    h1{font-size:clamp(28px,4vw,44px);line-height:1.15;margin:.3em 0 .2em}
+    .lead{max-width:800px;color:#334155;font-size:1.1rem}
+    .cta{margin-top:20px;display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-block;border-radius:12px;padding:12px 16px;border:1px solid var(--line);font-weight:600}
+    .btn.primary{background:var(--brand);color:var(--brand-contrast);border-color:var(--brand)}
+    /* Sections */
+    section{padding:56px 0}
+    section.alt{background:var(--soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    h2{font-size:1.6rem;margin:0 0 16px}
+    .grid{display:grid;gap:16px}
+    .cards-3{grid-template-columns:repeat(1,minmax(0,1fr))}
+    .cards-4{grid-template-columns:repeat(1,minmax(0,1fr))}
+    .card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+    .muted{color:var(--muted)}
+    .step-num{display:inline-flex;width:36px;height:36px;border-radius:999px;background:var(--soft);align-items:center;justify-content:center;font-weight:700;margin-bottom:8px}
+    /* Mandate block */
+    .mandate{background:var(--brand);color:var(--brand-contrast);border-top:1px solid var(--line)}
+    .mandate .muted{color:#cbd5e1}
+    .mandate ul{padding-left:18px}
+    /* Footer */
+    footer{padding:36px 0;color:var(--muted);border-top:1px solid var(--line)}
+    /* Responsive */
+    @media (min-width:720px){
+      .cards-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+      .cards-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand"><span class="brand-dot"></span> Osservatorio 118a</div>
+      <nav aria-label="Sezioni">
+        <ul>
+          <li><a href="#mission">Missione</a></li>
+          <li><a href="#what">Cosa facciamo</a></li>
+          <li><a href="#mandate">Mandato</a></li>
+          <li><a href="#docs">Documenti</a></li>
+          <li><a href="#updates">Aggiornamenti</a></li>
+          <li><a href="#contact">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="kicker">Art. 118a — Medicina complementare</div>
+      <h1>Trasparenza, dati, responsabilità.</h1>
+      <p class="lead">
+        Proponiamo l’istituzione di un <strong>Reparto/Osservatorio permanente</strong> che
+        <em>raccoglie</em>, <em>analizza</em> e <em>certifica</em> i casi in cui la
+        medicina ufficiale non basta — per decidere se e come integrare protocolli naturali o complementari
+        dove i dati lo indicano.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#mandate">Sostieni la richiesta al Cantone →</a>
+        <a class="btn" href="#docs">Leggi i documenti ufficiali</a>
+      </div>
+    </section>
+
+    <section id="mission" class="alt">
+      <div class="container">
+        <h2>Missione</h2>
+        <div class="grid cards-3">
+          <div class="card">
+            <h3>Tutela del cittadino</h3>
+            <p class="muted">Attuare la volontà popolare del 2009 con strumenti concreti e verificabili.</p>
+          </div>
+          <div class="card">
+            <h3>Dati prima delle teorie</h3>
+            <p class="muted">Raccolta sistematica di segnalazioni e casi non codificati (es. NCGS), archiviazione e tracciabilità.</p>
+          </div>
+          <div class="card">
+            <h3>Integrazione dove serve</h3>
+            <p class="muted">Valutare se e come integrare protocolli naturali o complementari quando le evidenze lo indicano.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="what">
+      <div class="container">
+        <h2>Cosa facciamo</h2>
+        <div class="grid cards-4">
+          <div class="card">
+            <div class="step-num">1</div>
+            <h3>Raccogliamo</h3>
+            <p class="muted">Segnalazioni dei cittadini e dei professionisti. Moduli standard, consenso e privacy by design.</p>
+          </div>
+          <div class="card">
+            <div class="step-num">2</div>
+            <h3>Analizziamo</h3>
+            <p class="muted">Valutazione delle falle di processo e dei limiti delle linee guida; report periodici pubblici.</p>
+          </div>
+          <div class="card">
+            <div class="step-num">3</div>
+            <h3>Certifichiamo</h3>
+            <p class="muted">Attestazione delle criticità sistemiche e raccomandazioni operative al DSS e agli ospedali.</p>
+          </div>
+          <div class="card">
+            <div class="step-num">4</div>
+            <h3>Proponiamo</h3>
+            <p class="muted">Dove indicato dai dati, protocolli di integrazione graduale (es. stimolazione vibrazionale) in progetti pilota.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="mandate" class="mandate">
+      <div class="container">
+        <h2>Mandato &amp; Richiesta al Cantone</h2>
+        <p class="muted">
+          Chiediamo l'istituzione entro <strong>90 giorni</strong> di un'Unità permanente (Osservatorio 118a)
+          come organo di controllo e certificazione: raccolta casi, analisi, rapporti pubblici, proposte di integrazione.
+          Finanziamento e attuazione a carico delle istituzioni.
+        </p>
+        <ul>
+          <li>Unità permanente, non progetto a scadenza</li>
+          <li>Trasparenza e responsabilità nominativa</li>
+          <li>Rimborsabilità LAMal come obiettivo dove pertinente</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="docs">
+      <div class="container">
+        <h2>Documenti</h2>
+        <div class="grid cards-3">
+          <a class="card" href="#" title="Lettera ufficiale (PDF)">
+            <h3>Lettera ufficiale al Cantone (19.08.2025)</h3>
+            <p class="muted">PDF — aggiungi il file quando pronto (es. <code>./documenti/Lettera-19-08-2025.pdf</code>).</p>
+          </a>
+          <a class="card" href="#" title="Allegato vibrazionale (PDF)">
+            <h3>Allegato: Reparto pilota – Stimolazione vibrazionale</h3>
+            <p class="muted">PDF — es. <code>./documenti/Allegato-stimolazione-vibrazionale.pdf</code></p>
+          </a>
+          <a class="card" href="#" title="Sintesi interrogazione (PDF)">
+            <h3>Sintesi interrogazione 25.1025 (EN)</h3>
+            <p class="muted">PDF — es. <code>./documenti/Interrogazione-251025-EN.pdf</code></p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="updates" class="alt">
+      <div class="container">
+        <h2>Aggiornamenti</h2>
+        <div class="grid" style="gap:12px">
+          <div class="card"><strong>19.08.2025</strong> — Inviata proposta per istituzione Osservatorio 118a (90 giorni).</div>
+          <div class="card"><strong>17.08.2025</strong> — Ricevuta conferma BAG su precedente comunicazione.</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h2>Contatti</h2>
+        <div class="card">
+          <p><strong>Osservatorio 118a</strong><br>Via Visconti 1 — 6500 Bellinzona</p>
+          <p>Email: <a href="mailto:osservatorio118a@mail.com">osservatorio118a@mail.com</a></p>
+          <p><a class="btn primary" href="mailto:osservatorio118a@mail.com?subject=Adesione%20Osservatorio%20118a">Aderisci / Collabora</a></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© 2025 Osservatorio 118a — Tutti i diritti riservati.</div>
+  </footer>
+</body>
+</html>
